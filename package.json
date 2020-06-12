@@ -1,0 +1,15 @@
+{
+  "name": "packerbuilderstopper",
+  "version": "1.0.0",
+  "description": "Runs daily to Stop running ec2 instances",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash Hardia",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.694.0",
+    "moment": "^2.26.0"
+  }
+}
